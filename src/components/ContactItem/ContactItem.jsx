@@ -9,9 +9,7 @@ const ContactItem = ({ contact: { name, number, id } }) => {
     <>
       <p>{name} :</p>
       <p>{number}</p>
-      <Delete on onClick={handleDelete}>
-        Delete
-      </Delete>
+      <Delete onClick={handleDelete}>Delete</Delete>
     </>
   );
 };

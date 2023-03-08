@@ -1,10 +1,10 @@
 // import PropTypes from 'prop-types';
 import ContactItem from 'components/ContactItem/ContactItem';
 import { useSelector } from 'react-redux';
-import { getContacts } from 'redux/selectors';
+import { getVisibleContacts } from 'redux/selectors';
 
 const ContactList = () => {
-  const contacts = useSelector(getContacts);
+  const contacts = useSelector(getVisibleContacts);
   return (
     <ul>
       {contacts.map(contact => (

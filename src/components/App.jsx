@@ -5,44 +5,6 @@ import ContactList from 'components/ContactList/ContactList';
 import Filter from 'components/Filter/Filter';
 
 const App = () => {
-  // const [contacts, setContacts] = useState(
-  //   () => JSON.parse(window.localStorage.getItem('contacts')) ?? []
-  // );
-  // const [filter, setFilter] = useState('');
-
-  // const addSubmitUserData = values => {
-  //   if (checkContacts(contacts, values)) {
-  //     return alert(`${values.name} is already in contacts`);
-  //   }
-
-  //   setContacts(prevState => [values, ...prevState]);
-  // };
-
-  // const checkContacts = (contacts, values) => {
-  //   return contacts.find(contact => contact.name === values.name.trim());
-  // };
-
-  // const deleteContact = contactId => {
-  //   setContacts(prevState =>
-  //     prevState.filter(contact => contact.id !== contactId)
-  //   );
-  //   setFilter('');
-  // };
-  // const changeFilter = event => {
-  //   setFilter(event.currentTarget.value);
-  // };
-
-  // const getVisibleContacts = () => {
-  //   const normalizedFilter = filter.toLowerCase();
-  //   return contacts.filter(contact =>
-  //     contact.name.toLowerCase().includes(normalizedFilter)
-  //   );
-  // };
-
-  // useEffect(() => {
-  //   window.localStorage.setItem('contacts', JSON.stringify(contacts));
-  // }, [contacts]);
-
   return (
     <div>
       <h1>Phonebook</h1>
